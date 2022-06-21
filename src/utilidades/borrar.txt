@@ -1,0 +1,89 @@
+ comando para crear un commit
+
+git commit
+
+
+crear una nueva rama
+
+git branch nombredelnuevocommit
+
+
+git --version   //ver la version de git en nuestra pc 
+
+Establece el nombre con el comando: 
+git config --global user.name "Marcelo Correa"
+
+Establece el correo a usar con el comando. 
+git config --global user.email mfcorreaz@gmail.com
+
+git config --list     para ver la TODA configuracion de mi git
+
+
+git config user.name   para ver la configuracion del usuario git local 
+
+git config user.email   para ver la configuracion el email usuario git local 
+
+
+Formas de buscar ayuda con git
+    git help configgit
+    git config --help
+    man git-config 
+
+Para inciar una carpeta como nuevo proyecto git escribimos el siguiente comando y se corre una sola vez
+git init
+
+Este comando nos va a permitir 
+git status
+
+Para pasar de working directory a Staging Area usamos el siguiente comando
+git add nombredelarchivo.extension
+git add .    para agregar todo de una
+git add css/  <--- ejemplo de como agregar una carpeta en este caso la carpeta css que va a guardar todo su contenido
+
+Para quitar de Staging Area y volver a Working Directory
+$ git rm --cached "index.html"  en este caso vamos a volver a index. es sin comillas el comando
+
+
+para comitear
+git commit 
+git commit -m "Commit #1: Rama Master - Estructura Inicial del proyecto"
+
+Sirve para ver el historial de los commit realizados
+git log
+
+Otro comando para ver el log con solamente, sin lo datos de user email 
+git log --oneline
+
+
+Para ver cuantas ramas tengo el comando es el siguiente
+git branch
+
+Para agregar una rama el comando es el siguiente
+git branch Nombredelarama
+
+Para cambiarme de rama utilizo el siguiente comando
+git branch checkout  NombreDeLaRamaDondeMeVoy
+
+Para traer los cambios de una rama al master usamos Merge
+git merge LaRamaQueQueremosTraer
+
+Para restaurar o volver al estado anterior 
+git restore NombredelArchivoARrestaurar
+
+para comparar dos versiones o dos ramas es el siguiente
+ git diff gradiente master
+
+
+
+GIT HUB
+git remote add origin https://github.com/mfcorreaz/mfczmarcelocorrea.git
+git branch -M master
+git push -u origin master
+
+       
+       
+       
+        
+       
+       
+        

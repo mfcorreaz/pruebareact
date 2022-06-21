@@ -1,0 +1,9 @@
+.contenedorPadre{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.contenedorHijo{
+    width: 90%;
+}
+

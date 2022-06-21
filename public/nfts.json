@@ -1,0 +1,59 @@
+[
+    {
+        "id" : 1,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/TS_TNA_Vinyl_all.png?v=1581110428",
+        "category" : "Disco",
+        "nombre" : "The New Abnormal",
+        "descripcion" : "Exclusive white vinyl, Over 100 pages of never before seen footage, Digital download of The New Abnormal, Double sided poster ",
+        "existentes" : 10,
+        "stock" : 10,
+        "precio" : 2000
+    },{
+        "id" : 2,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/1100-1.png?v=1632929190",
+        "category" : "Remeras",
+        "nombre" : "Remera Logo Guitarra",
+        "descripcion" : "Remera mangas cortas color rojo, con logo de guitarra Stratocaster",
+        "existentes" : 5,
+        "stock" : 5,
+        "precio" : 2300
+    },{
+        "id" : 3,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/sucks.png?v=1581390056",
+        "category" : "Remeras",
+        "nombre" : "Remera Mangas Corta",
+        "descripcion" : "Remera Mangas Corta, The Strokes Magna Logo, Color Negro",
+        "existentes" : 7,
+        "stock" : 7,
+        "precio" : 4300
+    },{
+        "id" : 4,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/APOLLO.png?v=1637180443",
+        "category" : "Posters",
+        "nombre" : "APOLLO LITHO POSTER 1",
+        "descripcion" : "LIMITED EDITION, Screen-printed, heavy stock litho. 18x24",
+        "existentes" : 18,
+        "stock" : 18,
+        "precio" : 2800
+    }
+    ,{
+        "id" : 5,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/USRELEASEPOSTER_8c8806fb-077e-416c-8661-97ba41c149cc_1.png?v=1633111565",
+        "category" : "Posters",
+        "nombre" : "POSTER BAND APOLLO 2022",
+        "descripcion" : "LIMITED EDITION, Reissue of 'Is This It' poster released in 2001. 18x24",
+        "existentes" : 18,
+        "stock" : 18,
+        "precio" : 2800
+    }
+    ,{
+        "id" : 6,
+        "imgURL" : "https://cdn.shopify.com/s/files/1/0111/1664/2367/products/TheStrokesbyMarkSeligerLitho.png?v=1632924711",
+        "category" : "Posters",
+        "nombre" : "APOLLO LITHO (RE-PRINT)",
+        "descripcion" : "THE STROKES BY MARK SELIGER LITHO. 48x24",
+        "existentes" : 6,
+        "stock" : 6,
+        "precio" : 2500
+    }
+]
