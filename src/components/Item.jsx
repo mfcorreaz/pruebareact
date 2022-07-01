@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {primeraLetraAMayusc} from '../utilidades/utilidades';
 import './item.css';
 
 function Item({nft}) {
@@ -12,9 +11,8 @@ function Item({nft}) {
             <div className="card contenedorHijo  " >
                 <img src={imgURL} className="card-img-top" alt={nombre}/>
                 <div className="card-body">
-              {/*La función primeraLetraAMatusc es propia de mi proyecto. Se encuentra en la carpeta utilidades.*/}
-                  <h5 className="card-title">{"Tipo: " + primeraLetraAMayusc(category)}</h5>
-                  <p className="">{"Modelo: " + primeraLetraAMayusc(nombre)}</p>
+                  <h5 className="card-title">{"Tipo: " + (category)}</h5>
+                  <p className="">{"Modelo: " + (nombre)}</p>
                   <p className=''>En stock: {stock}/{existentes}</p>
                   <p className=''>Precio $:  { precio}</p>
                   <p className="btn btn-danger">Ver más</p>

@@ -2,7 +2,6 @@ import React from 'react'
 import {useEffect, useState} from 'react';
 import ItemList from './ItemList';
 import {useParams} from 'react-router-dom';
-import {primeraLetraAMayusc} from '../utilidades/utilidades';
 import Loading from './Loading';
 
 function Category() {
@@ -34,7 +33,7 @@ function Category() {
       return (
       <>
         <div className='contenedor-encabezado'>
-           <h2 className="categoryName">{primeraLetraAMayusc(categoryName)}</h2>
+           <h2 className="categoryName">{(categoryName)}</h2>
         </div>
         {arrayNfts != [] ? <ItemList arrayNfts={arrayNfts} /> : <div className="noDisplay"></div>}
       </>

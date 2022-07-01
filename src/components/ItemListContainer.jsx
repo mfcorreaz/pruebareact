@@ -4,7 +4,7 @@ import {primeraLetraAMayusc} from '../utilidades/utilidades';
 import './ItemListContainer.css'
 import Loading from './Loading';
 
-function ItemListContainer({greeting}) {
+function ItemListContainer() {
   const [arrayNfts, setArrayNfts] = useState([])
   const categoryName = "Productos"
 
